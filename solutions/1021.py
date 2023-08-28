@@ -12,6 +12,6 @@ for bill in bills:
 
 print("MOEDAS:")
 for coin in coins:
-    amount = int(round(value,2) / coin)
+    amount = int(round(value, 2) / coin)
     print(f'{amount} moeda(s) de R$ {coin:.2f}')
     value = value % coin
