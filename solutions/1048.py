@@ -1,10 +1,10 @@
 salary = float(input())
 
 
-def get_increase_salary(percentage: float, salary: float):
-    increase_amount = percentage / 100 * salary
-    new_salary = salary + increase_amount
-    return percentage, increase_amount, new_salary
+def get_increase_salary(percentage_increase: float, current_salary: float):
+    increase_amount_salary = percentage_increase / 100 * salary
+    new_salary_amount = current_salary + increase_amount_salary
+    return percentage_increase, increase_amount_salary, new_salary_amount
 
 
 if 0 <= salary <= 400.00:
