@@ -9,8 +9,8 @@ count_leds = 0
 
 for _ in range(entrada):
     caracteres = input()
-    for caracter in caracteres:
-        count_leds += quantidade_leds_por_numero[caracter]
+    for caractere in caracteres:
+        count_leds += quantidade_leds_por_numero[caractere]
     quantidade_leds.append(count_leds)
     count_leds = 0
 
