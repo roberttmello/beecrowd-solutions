@@ -7,7 +7,7 @@ entrada = int(input())
 quantidade_leds = []
 count_leds = 0
 
-for i in range(entrada):
+for _ in range(entrada):
     caracteres = input()
     for caracter in caracteres:
         count_leds += quantidade_leds_por_numero[caracter]
